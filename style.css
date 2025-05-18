@@ -1,1 +1,77 @@
+*{
+  box-sizing: border-box;
+}
+
+.signup-wrapper  .signup-card{
+            display: inline-block;
+            max-width: 600px;
+            width:100%;
+            /* border: 10px solid white; */
+            border-radius: 20px;
+            background:linear-gradient(to right,rgb(12, 124, 181),rgb(23, 164, 220)) ;
+            margin-left: 25%;
+            margin-top: 2%;
+            padding: 2px;
+            box-shadow: 0 4px 20px rgb(18, 32, 12);
+            box-sizing: border-box;
+}
+.signup-wrapper .signup-card h1 {
+color: whitesmoke;
+text-align: center;
+margin-top: 50px;
+}
+
+.signup-wrapper .signup-card button {
+background-color:whitesmoke ;
+color: rgb(10, 228, 43);
+display: block; /* Fixed wrong color syntax */
+margin: 20px auto;
+padding: 10px 20px;
+text-align: center;
+border-radius: 20px;
+border:none;
+cursor: pointer;
+}
+
+.signup-wrapper .signup-card button:hover {
+background-color:darkolivegreen;
+
+}
+
+.signup-wrapper .signup-card img {
+padding: 20px;
+border: 2px solid whitesmoke;
+border-radius: 20px;
+width: 50%;
+height: 50%;
+margin-left:25%;
+background-color: darkolivegreen;
+}
+
+.signup-wrapper .signup-card .subtitle {
+text-align: center;
+}
+
+.signup-wrapper .signup-card .signup-text {
+text-align: center;
+color: whitesmoke;
+}
+.signup-form input{
+            display:block;
+            height: 50px;
+            width: 85%;
+            border: 3px solid darkolivegreen;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            margin-left: 7%;
+            
+            
+}
+p{
+            text-align: center;
+            color: whitesmoke;
+}
+.social-login{
+            text-align: center;
+}
 
