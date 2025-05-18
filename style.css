@@ -1,0 +1,210 @@
+h1{
+            color:#A55B4B ;background:linear-gradient(-45deg,#4c089f,#4F1C51);
+}
+h2{
+   color:#DCA06D;font-weight:normal;         
+}
+h4{
+            color:#4F1C51;
+}
+body{
+            text-align: center;
+}
+/* Outer layout center */
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f2f2f2;
+}
+
+/* Card style */
+.signup-card {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Typography */
+.signup-card h1 {
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.signup-card .subtitle {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+/* Form fields */
+.signup-card form input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.signup-card form input:focus {
+  border-color: #4d90fe;
+}
+
+/* Button */
+.signup-card button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #1f75e4ea, #e4eae9);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signup-card button:hover {
+  background: linear-gradient(to right,  #A55B4B,  #4F1C51);
+}
+
+/* Login link */
+.signup-card .login-text {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.signup-card .login-text a {
+  color:#c610f4;
+  text-decoration: none;
+}
+
+.signup-card .login-text a:hover {
+  text-decoration: underline;
+}
+
+                  
+.curved-button {
+            display: inline-block;
+            background-color: #A55B4B;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            text-align: center;
+          }
+          
+.curved-button:hover {
+            background-color: #A55B4B;
+            color:#4F1C51 ;
+}
+
+
+.login-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #f2f2f2;
+}
+          
+          /* Card style */
+.login-card {
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+ }
+          
+          /* Typography */
+.login-card h1 {
+            margin-bottom: 10px;
+            font-size: 32px;
+            font-weight: 600;
+ }
+          
+.login-card .subtitle {
+            font-size: 12px;
+            color: #777;
+            margin-bottom: 25px;
+}
+          
+          /* Form fields */
+.login-card form input {
+            width: 100%;
+            padding: 12px 14px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 14px;
+            outline: none;
+            text-align: left; 
+            transition: border-color 0.3s ease;
+ }
+          
+.login-card form input:focus {
+            border-color: #186aee;
+ }
+          
+          /* Button */
+.login-card button {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(to right, #f4f5fa, #a903e1df);
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+ }
+          
+.login-card button:hover {
+            background: linear-gradient(to right,#A55B4B,  #4F1C51);
+  }
+          
+          /* Login link */
+.login-card .signup-text {
+            margin-top: 20px;
+            font-size: 13px;
+ }
+          
+.login-card .signup-text a {
+            color: #c610f4;
+            text-decoration: none;
+}
+          
+.login-card .signup-text a:hover {
+            text-decoration: underline;
+ }
+ .photo{
+            width: 50%;
+            margin-top: 50px;
+            margin-left: 25%;
+            margin-right: 25%;
+ 
+ }
+ .summary-Image{
+                border: 5px solid white;
+                width: 100%;
+
+ }
+ body{
+            background-color: black;
+ }
+ p{
+            margin: 0; color: white;
+ }
