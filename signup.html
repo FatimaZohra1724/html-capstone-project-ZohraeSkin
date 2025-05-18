@@ -1,34 +1,46 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Litlyzer</title>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Sign Up - ZohraeSkin</title>
             <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-     
-     <div class="signup-wrapper">
+            <div class="signup-wrapper">
             <div class="signup-card">
-              <h1>Sign Up</h1>
-              <img src="./Images/summary page model.jpg"height ="400px" />
-              <p class="subtitle">Litlyzer</p>
-          
-              <form>
-                <input type="email" placeholder="Email Address" required />
-                <input type="password" placeholder="Password" required />
-                <input type="password" placeholder="Confirm Password" required />
-          
-                <button type="submit">Sign Up</button>
-          
-                <p class="login-text">
-                  Do you already have an account? <a href="./Login.html">Login</a>
-                </p>
-              </form>
+            <h1>Sign Up</h1>
+
+            <!-- Image -->
+            <img src="./Images/Fruit and Salad B.jpg" height="400px" alt="ZohraeSkin sign-up image" />
+
+            <p class="subtitle">ZohraeSkin</p>
+
+            <!-- Signup Form -->
+
+            <form action="/signup" method="POST" class="signup-form">
+                        <input type="text" name="name" placeholder="Full Name" required />
+                        <input type="email" name="email" placeholder="Email Address" required />
+                        <input type="password" name="password" placeholder="Create Password" required />
+                        <input type="password" name="confirm_password" placeholder="Confirm Password" required />
+                        <button type="submit">Sign Up</button>
+                        
+                      
+                        <p class="login-text">
+                          Already have an account? <a href="./login.html">Login</a>
+                        </p>
+                      </form>
+                      <!-- Social Sign Up -->
+            <p>Or sign up with:</p>
+            <div class="social-login">
+            <a href="{% provider_login_url 'google' %}">Sign Up with Google</a><br />
+            <a href="{% provider_login_url 'github' %}">Sign Up with GitHub</a><br />
+            <a href="{% provider_login_url 'linkedin_oauth2' %}">Sign Up with LinkedIn</a>
             </div>
-          </div>
-          
-            
-            
+
+            <!-- Social Sign Up -->
+            </div>
+            </div>
 </body>
-</html
+</html>
