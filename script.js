@@ -5,7 +5,7 @@ var isdark = false;  //It is the variable start work if value is false
 
 // Check if user already selected dark theme
 if (localStorage.getItem("theme") === "dark") {
-    document.body.style.background = "#2d002a";
+    document.body.style.background = "dark-purple";
     document.body.style.color = "lightpink";
     isdark = true;
 } else {
