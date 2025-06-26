@@ -16,7 +16,7 @@
 }
 .signup-wrapper .signup-card h1 {
 color: whitesmoke;
-text-align: center;
+text-align: justify;
 margin-top: 50px;
 }
 
@@ -26,7 +26,7 @@ color: rgb(10, 228, 43);
 display: block; /* Fixed wrong color syntax */
 margin: 20px auto;
 padding: 10px 20px;
-text-align: center;
+text-align:justify;
 border-radius: 20px;
 border:none;
 cursor: pointer;
@@ -48,11 +48,11 @@ background-color: darkolivegreen;
 }
 
 .signup-wrapper .signup-card .subtitle {
-text-align: center;
+text-align: justify;
 }
 
 .signup-wrapper .signup-card .signup-text {
-text-align: center;
+text-align: justify;
 color: whitesmoke;
 }
 .signup-form input{
@@ -67,10 +67,10 @@ color: whitesmoke;
             
 }
 p{
-            text-align: center;
+            text-align: justify;
             color: whitesmoke;
 }
 .social-login{
-            text-align: center;
+            text-align: justify;
 }
 
