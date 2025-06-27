@@ -16,7 +16,7 @@
 }
 .signup-wrapper .signup-card h1 {
 color: whitesmoke;
-text-align: justify;
+text-align: center;
 margin-top: 50px;
 }
 
@@ -48,7 +48,7 @@ background-color: darkolivegreen;
 }
 
 .signup-wrapper .signup-card .subtitle {
-text-align: justify;
+text-align: center;
 }
 
 .signup-wrapper .signup-card .signup-text {
